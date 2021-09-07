@@ -1,5 +1,6 @@
 header {
   padding: 20px 0;
+  background: #bbbbbb;
 }
 .caixa-cabecalho {
   display: flex;
@@ -34,7 +35,7 @@ nav a:hover {
   top: 65px;
 }
 .principal {
-  background: #bbbbbb;
+  background: #ffffff;
   padding: 30px;
   border: 2px solid #000000;
   border-radius: 10px;
@@ -43,6 +44,7 @@ nav a:hover {
 }
 #banner {
   width: 100%;
+  margin-top: 10px;
 }
 .titulo-centralizado {
   text-align: center;
@@ -87,4 +89,17 @@ em strong {
   width: 50%;
   padding-top: 30px;
   right: 200px;
+}
+footer {
+  background: url('imagens/bg.jpg');
+  padding: 40px 0;
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
+}
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px 315px;
+  text-align: center;
 }
