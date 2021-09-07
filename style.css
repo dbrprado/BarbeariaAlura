@@ -1,11 +1,10 @@
 header {
-  background: #bbbbbb;
   padding: 20px 0;
 }
 .caixa-cabecalho {
   display: flex;
   width: 940px;
-  margin: 125px auto;
+  margin: 80px auto;
 }
 nav {
   position: absolute;
@@ -31,21 +30,34 @@ nav a:hover {
   font-size: 30px;
   position: absolute;
   font-weight: bold;
-  align-self: center;
+  margin: 20px 20px 0 0;
+  top: 65px;
 }
-/*
 .principal {
-  background: #cccccc;
+  background: #bbbbbb;
   padding: 30px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 10px;
 }
 #banner {
   width: 100%;
 }
 .titulo-centralizado {
   text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+#logo {
+  position: absolute;
+  right: 180px;
 }
 p {
-  text-align: center;
+  text-align: left;
+  right: 0;
+  width: 50%;
+  padding-top: 30px;
 }
 #missao {
   font-size: 20px;
@@ -56,17 +68,23 @@ em strong {
 .beneficios {
   background: #ffffff;
   padding: 20px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  margin-top: 10px;
+  position: relative;
 }
 .itens {
-  font-style: italic;
-}
-ul {
   display: inline-block;
-  vertical-align: top;
-  margin-right: 15%;
-  width: 20%;
+  right: 180px;
+  top: 200px;
+  position: absolute;
+}
+.itens li {
+  font-style: italic;
+  margin: 0 0 0 15px;
 }
 .imagembeneficios {
   width: 50%;
+  padding-top: 30px;
+  right: 200px;
 }
-*/
