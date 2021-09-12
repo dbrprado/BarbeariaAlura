@@ -1,0 +1,105 @@
+header {
+  padding: 20px 0;
+  background: #bbbbbb;
+}
+.caixa-cabecalho {
+  display: flex;
+  width: 940px;
+  margin: 80px auto;
+}
+nav {
+  position: absolute;
+  right: 180px;
+  align-self: center;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000000;
+  font-size: 22px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+.titulo-principal {
+  font-size: 30px;
+  position: absolute;
+  font-weight: bold;
+  margin: 20px 20px 0 0;
+  top: 65px;
+}
+.principal {
+  background: #ffffff;
+  padding: 30px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 10px;
+}
+#banner {
+  width: 100%;
+  margin-top: 10px;
+}
+.titulo-centralizado {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+#logo {
+  position: absolute;
+  right: 180px;
+}
+p {
+  text-align: left;
+  right: 0;
+  width: 50%;
+  padding-top: 30px;
+}
+#missao {
+  font-size: 20px;
+}
+em strong {
+  color: #ff0000;
+}
+.beneficios {
+  background: #ffffff;
+  padding: 20px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+.itens {
+  display: inline-block;
+  right: 180px;
+  top: 200px;
+  position: absolute;
+}
+.itens li {
+  font-style: italic;
+  margin: 0 0 0 15px;
+}
+.imagembeneficios {
+  width: 50%;
+  padding-top: 30px;
+  right: 200px;
+}
+footer {
+  background: url('imagens/bg.jpg');
+  padding: 40px 0;
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
+}
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px 315px;
+  text-align: center;
+}
